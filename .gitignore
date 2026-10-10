@@ -1,0 +1,24 @@
+# Arquivos auxiliares do LaTeX
+build/
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Dados de mercado: não redistribuir (termos de uso de B3 e Yahoo Finance)
+dados/
+*.ZIP
+*.zip
