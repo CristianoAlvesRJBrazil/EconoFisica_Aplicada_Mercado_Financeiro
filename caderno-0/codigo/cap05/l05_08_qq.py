@@ -1,0 +1,8 @@
+fig, ax = plt.subplots(figsize=(3.6, 3.2))
+stats.probplot(r, dist="norm", plot=ax)
+ax.get_lines()[0].set(color="C0", markersize=2)
+ax.get_lines()[1].set(color="C1")
+ax.set_title("Quantis do Ibovespa contra a normal")
+ax.set_xlabel("quantis teóricos (normal)")
+ax.set_ylabel("quantis observados")
+fig.savefig("figuras/fig_05_04_qq.pdf")

@@ -44,6 +44,28 @@ Todos foram obtidos com o código do próprio livro:
 - Os retornos diários quase não têm autocorrelação, mas os retornos absolutos têm uma
   autocorrelação que persiste por meses: é o agrupamento de volatilidade.
 
+## Código dos cadernos
+
+Todo o código das listagens do livro está no repositório, com as versões fixadas usadas
+para gerar a amostra:
+
+- [`caderno-0/codigo/`](caderno-0/): Python, NumPy, pandas, gráficos, estatística e a
+  base de dados de mercado (B3, Banco Central e Yahoo Finance). São 54 listagens.
+- [`caderno-1/codigo/`](caderno-1/): passeio aleatório, mercados eficientes,
+  autocorrelação, razão de variâncias, fatos estilizados e o modelo ARCH. São 22
+  listagens.
+
+Para executar um caderno:
+
+```bash
+cd caderno-1/codigo
+python3.12 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python executar_listagens.py
+```
+
+O README de cada caderno traz os detalhes.
+
 ## Plano do livro
 
 | Caderno | Título | Horas | Situação |

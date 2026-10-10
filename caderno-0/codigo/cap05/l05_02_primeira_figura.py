@@ -1,0 +1,5 @@
+fig, ax = plt.subplots()
+ax.plot(ibov.index, ibov)
+ax.set_title("Ibovespa, 2016 a 2025")
+ax.set_ylabel("pontos")
+fig.savefig("figuras/fig_05_01_ibovespa.pdf")

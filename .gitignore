@@ -18,7 +18,14 @@ __pycache__/
 .venv/
 .ipynb_checkpoints/
 
-# Dados de mercado: não redistribuir (termos de uso de B3 e Yahoo Finance)
-dados/
+# Dados de mercado: não redistribuir (termos de uso de B3 e Yahoo Finance).
+# As pastas ficam no repositório, vazias, porque as listagens gravam nelas.
+**/dados/*
+!**/dados/.gitkeep
 *.ZIP
 *.zip
+
+# Gerados ao executar as listagens
+**/figuras/*
+!**/figuras/.gitkeep
+**/saidas/
