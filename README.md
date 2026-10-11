@@ -74,6 +74,8 @@ células para as respostas. Disponíveis:
 
 - Caderno 0, Capítulo 1 — O ambiente de trabalho
 - Caderno 0, Capítulo 2 — Python essencial
+- Caderno 1, Capítulo 1 — O que é a Econofísica
+- Caderno 1, Capítulo 2 — De Bachelier a Mandelbrot
 
 ## Plano do livro
 
