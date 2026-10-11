@@ -66,6 +66,15 @@ python executar_listagens.py
 
 O README de cada caderno traz os detalhes.
 
+## Notebooks das aulas
+
+A pasta [`aulas/`](aulas/) traz os notebooks Jupyter das aulas. Cada um tem as listagens
+do capítulo com as saídas esperadas, demonstrações, uma prática guiada e os exercícios com
+células para as respostas. Disponíveis:
+
+- Caderno 0, Capítulo 1 — O ambiente de trabalho
+- Caderno 0, Capítulo 2 — Python essencial
+
 ## Plano do livro
 
 | Caderno | Título | Horas | Situação |
