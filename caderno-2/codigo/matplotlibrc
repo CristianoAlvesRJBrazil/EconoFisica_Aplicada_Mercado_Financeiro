@@ -1,0 +1,20 @@
+# Estilo das figuras dos cadernos. O Matplotlib lê este arquivo automaticamente
+# quando o código roda nesta pasta; assim, o estilo fica num lugar só.
+figure.figsize      : 6.4, 3.4
+figure.dpi          : 110
+savefig.bbox        : tight
+font.family         : sans-serif
+font.size           : 9
+axes.titlesize      : 10
+axes.titleweight    : bold
+axes.titlelocation  : left
+axes.labelsize      : 9
+axes.spines.top     : False
+axes.spines.right   : False
+axes.grid           : True
+grid.color          : DDE2E8
+grid.linewidth      : 0.6
+axes.prop_cycle     : cycler('color', ['122A4A', 'B78A2A', '1E6E50', 'A03426', '265680', '6E7884'])
+lines.linewidth     : 1.0
+legend.frameon      : False
+legend.fontsize     : 8

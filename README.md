@@ -46,14 +46,22 @@ Todos foram obtidos com o código do próprio livro:
 
 ## Código dos cadernos
 
-Todo o código das listagens do livro está no repositório, com as versões fixadas usadas
-para gerar a amostra:
+O código das listagens de todos os cadernos já escritos está no repositório, com as
+versões fixadas:
 
 - [`caderno-0/codigo/`](caderno-0/): Python, NumPy, pandas, gráficos, estatística e a
   base de dados de mercado (B3, Banco Central e Yahoo Finance). São 54 listagens.
 - [`caderno-1/codigo/`](caderno-1/): passeio aleatório, mercados eficientes,
   autocorrelação, razão de variâncias, fatos estilizados e o modelo ARCH. São 22
   listagens.
+- [`caderno-2/codigo/`](caderno-2/): caudas pesadas, que incluem:
+  - curtose e funções de sobrevivência;
+  - distribuições estáveis de Lévy e Lévy truncada;
+  - *t* de Student e NIG;
+  - estimador de Hill e a lei cúbica inversa em índices e ações do Brasil e dos EUA;
+  - agregação temporal.
+
+  São 28 listagens. O PDF deste caderno ainda não está na amostra.
 
 Para executar um caderno:
 
@@ -83,7 +91,7 @@ células para as respostas. Disponíveis:
 |---|---|---|---|
 | 0 | Python para finanças quantitativas | 12 | **na amostra** |
 | 1 | Fundamentos da Econofísica | 6 | **na amostra** |
-| 2 | Distribuições de cauda pesada | 8 | em preparação |
+| 2 | Distribuições de cauda pesada | 8 | **código disponível** |
 | 3 | Processos estocásticos em finanças | 8 | em preparação |
 | 4 | Leis de potência e invariância de escala | 6 | em preparação |
 | 5 | Fractais, memória longa e multifractalidade | 8 | em preparação |

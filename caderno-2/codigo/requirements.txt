@@ -1,0 +1,9 @@
+# Caderno 2: as mesmas versões do Caderno 1, testadas em conjunto em 11/10/2026
+# Python 3.12 ou superior
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+matplotlib==3.11.2
+statsmodels==0.15.0
+yfinance==1.7.0
+jupyterlab==4.6.4
